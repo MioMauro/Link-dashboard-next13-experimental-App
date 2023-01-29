@@ -1,3 +1,6 @@
+'use client'
+
+import { ThemeProvider } from 'next-themes'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import MainPage from '@/components/MainPage'
@@ -11,11 +14,13 @@ export default function RootLayout({ children }) {
       <head />
       
       <body className='bg-slate-700 dark:bg-slate-400'>
+      <ThemeProvider enableSystem={true} attribute="class">
         <Header/>
         <Navbar/>
+        {children}
         <MainPage/>
         <Footer/>
-      {children}
+      </ThemeProvider>
       </body>      
     </html>    
   )

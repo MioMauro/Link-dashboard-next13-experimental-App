@@ -14,9 +14,9 @@ import React from 'react'
 
 const MainPage = () => {
 return (
-    <div className='span-2 gap-2 m-auto w-full h-[50.4rem] bg-slate-500 dark:bg-slate-200 border rounded shadow-white shadow-md dark:shadow-black ease-in duration-300 grid grid-cols-10 grid-rows-3 p-2'>
-    
-    <div className=' row-span-3 col-span-2  rounded border-zinc-300 shadow-white shadow-md dark:shadow-black bg-slate-800 dark:bg-slate-400'>
+<div className='span-2 gap-2 m-auto w-full h-[50.4rem] bg-slate-500 dark:bg-slate-200 border rounded shadow-white shadow-md dark:shadow-black ease-in duration-300 grid grid-cols-10 grid-rows-3 p-2'>
+
+        <div className=' row-span-3 col-span-2  rounded border-zinc-300 shadow-white shadow-md dark:shadow-black bg-slate-800 dark:bg-slate-400'>
                 <Box1/>
         </div>
                 
