@@ -19,3 +19,12 @@ content: [
 
 
 import { ThemeProvider } from 'next-themes'
+
+npm install react-icons --save
+
+Adding URL config for BG-Image
+
+backgroundImage: {
+        'hero-pattern': "url('/img/hero-pattern.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
