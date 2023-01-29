@@ -16,3 +16,6 @@ content: [
     module.exports = {
     darkMode: "class",
     content: [
+
+
+import { ThemeProvider } from 'next-themes'
